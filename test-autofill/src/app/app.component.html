@@ -1,0 +1,16 @@
+<div class="container">
+    <h1>Fill Address Here</h1>
+
+    <mat-form-field>
+        <input type="text" placeholder="Enter City" matInput [formControl]="myControl" [matAutocomplete]="auto">
+        <mat-autocomplete autoActiveFirstOption #auto="matAutocomplete">
+            <mat-option *ngFor="let option of filteredOptions | async" [value]="option">
+            {{option}}
+            </mat-option>
+            <mat-option *ngIf="isSupposedToProvideLinkForMissing">
+                <a href="linkhere">Put Your Link Here to Handle No Address</a>
+            </mat-option>
+        </mat-autocomplete>
+</mat-form-field>
+
+</div>
