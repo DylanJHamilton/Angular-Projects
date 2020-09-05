@@ -1,13 +1,41 @@
 .profile-img{
-    width:100%;
+    width:50%;
 }
 
 .row{
     padding: 20px 20px 30px 20px;
+    border:1px solid #fff;
+    margin-bottom:20px;
 }
 
 .col{
-    border-top:1px solid #fff;
-    border-bottom:1px solid #fff;
     padding:10px;
+}
+
+div.container.app-root-cotainer{
+    display:none !important;
+}
+
+.row-one{
+    display:none;
+}
+
+#available li{
+    color:green;
+    font-size:40px;
+}
+
+#moderate li{
+    color:orange;
+    font-size:40px;
+}
+
+#closed li{
+    color:red;
+    font-size:40px;
+}
+
+.btn{
+    color:#ffffff;
+    background-color:#AC832C;
 }

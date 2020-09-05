@@ -1,16 +1,23 @@
+<div class="app-hero">
+  <h1>See If Your Favorite Artist Is Available</h1>
+</div>
+
+
 <div class="container app-root-cotainer">
 
   <h1>Choose Your View Option</h1>
 <div class="row-one">
   <div class="row-column">
-    <a class="column-a" href="">View By Multi-Table</a>
+    <a class="column-a" routerLink="/multi-view" routerLinkActive="active">View By Multi-Table</a>
   </div>
 </div>
 
 <div class="row-two">
   <div class="row-column">
-    <a class="column-a" href="">View By Artist Only</a>
+    <a class="column-a" routerLink = "/single-view" routeLinkActive="active">View By Artist Only</a>
   </div>
 </div>
 
 </div>
+
+<router-outlet></router-outlet>
