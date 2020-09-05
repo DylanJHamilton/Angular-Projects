@@ -1,0 +1,93 @@
+div.container.app-root-cotainer{
+    padding:50px;
+    margin-bottom:70px;
+    height:450px !important;
+}
+
+h1{
+    text-align:center;
+    font-weight:700;
+}
+
+a:hover{
+    color:#fff;
+    text-decoration:none;
+}
+
+.row-one{
+    width:49%;
+    float:left;
+    padding:85px;
+    background-image:url('/assets/multi-list-bg.jpg');
+    background-size:cover;
+    height:100%;
+    box-shadow:inset 0 0 0 2000px rgba(0, 0, 0, 0.6);
+    border:3px solid #AC832C;
+    border-radius:20px;
+}
+
+.row-one:hover{
+    box-shadow:inset 0 0 0 2000px #ac832c1f;
+}
+
+.row-two:hover{
+    box-shadow:inset 0 0 0 2000px #ac832c1f;
+}
+
+.row-two{
+    width:49%;
+    padding:85px;
+    float:right;
+    background-image:url('/assets/single-list-bg.jpeg');
+    background-size:cover;
+    height:100%;
+    box-shadow:inset 0 0 0 2000px rgba(0, 0, 0, 0.6);
+    border: 3px solid #AC832C;
+    border-radius:20px;
+}
+
+.row-column{
+    text-align:center;
+    padding:50px 0px 50px;
+}
+
+a.column-a{
+    font-size:35px !important;
+    text-align:center;
+    padding:50px 0px 50px 0px;
+    font-weight:700;
+}
+
+/*Main Component Styling*/
+/*Tablet*/
+@media only screen and(max-width:1025px){
+
+}
+
+
+/*Phone*/
+@media only screen and(max-width:500px){
+    div.container.app-root-cotainer{
+        margin-bottom:600px;
+        height:200px;
+    }
+
+    .row-one{
+        width:100%;
+        padding:85px;
+        margin-bottom:40px;
+        background-size:cover;
+        background-position: center;
+    }
+
+    .row-two{
+        width:100%;
+        padding:85px;
+        background-size:cover;
+        background-position:center;
+    }
+
+    .row-column{
+        padding:0px;
+    }
+}
