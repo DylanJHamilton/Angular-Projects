@@ -6,6 +6,9 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { MultiViewComponent } from './multi-view/multi-view.component';
 import { SingleViewComponent } from './single-view/single-view.component';
+import { MultiArtistListComponent } from './multi-artist-list/multi-artist-list.component';
+import { SingularArtistListComponent } from './singular-artist-list/singular-artist-list.component';
+import { AdminLoginComponent } from './admin-login/admin-login.component';
 
 
 const routes: Routes = [
@@ -18,7 +21,10 @@ const routes: Routes = [
   declarations: [
     AppComponent,
     MultiViewComponent,
-    SingleViewComponent
+    SingleViewComponent,
+    MultiArtistListComponent,
+    SingularArtistListComponent,
+    AdminLoginComponent,
   ],
   imports: [
     BrowserModule,
