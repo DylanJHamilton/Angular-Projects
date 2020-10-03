@@ -9,3 +9,8 @@
 .row-three{
     width:33%;
 }
+
+::ng-deep .mat-tab-label{
+    color:#ffffff !important;
+    font-size:15px;
+}

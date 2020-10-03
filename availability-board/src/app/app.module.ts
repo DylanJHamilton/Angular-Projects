@@ -9,8 +9,9 @@ import { SingleViewComponent } from './single-view/single-view.component';
 import { MultiArtistListComponent } from './multi-artist-list/multi-artist-list.component';
 import { SingularArtistListComponent } from './singular-artist-list/singular-artist-list.component';
 import { AdminLoginComponent } from './admin-login/admin-login.component';
-
-
+import { MatSliderModule } from '@angular/material/slider';
+import { MatTabsModule } from '@angular/material/tabs';
+ 
 const routes: Routes = [
   { path: 'main', pathMatch: 'full', component: AppComponent},
   { path: 'multi-view', pathMatch: 'full', component: MultiViewComponent },
@@ -29,7 +30,9 @@ const routes: Routes = [
   imports: [
     BrowserModule,
     AppRoutingModule,
-    RouterModule.forRoot(routes)
+    RouterModule.forRoot(routes),
+    MatSliderModule, 
+    MatTabsModule
   ],
   exports: [RouterModule],
   providers: [],
