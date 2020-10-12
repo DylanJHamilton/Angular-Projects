@@ -1,5 +1,6 @@
 .profile-img{
-    width:50%;
+    width:80%;
+    border-radius:30px;
 }
 
 .row{
@@ -35,7 +36,29 @@ div.container.app-root-cotainer{
     font-size:40px;
 }
 
-.btn{
+.btn-back{
     color:#ffffff;
     background-color:#AC832C;
+    border: 1px solid #AC832C;
+    margin:5px;
+    font-size:20px;
+    padding:10px;
 }
+
+.btn-back a:hover {
+    color:#fff;
+}
+
+.btn{
+    background-color:#AC832C;
+    color:#fff;
+}
+
+h2{
+    font-size:35px;
+}
+
+h5{
+    font-size:20px;
+}
+

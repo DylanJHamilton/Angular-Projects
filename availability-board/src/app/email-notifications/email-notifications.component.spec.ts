@@ -1,20 +1,20 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { SingularArtistListComponent } from './singular-artist-list.component';
+import { EmailNotificationsComponent } from './email-notifications.component';
 
-describe('SingularArtistListComponent', () => {
-  let component: SingularArtistListComponent;
-  let fixture: ComponentFixture<SingularArtistListComponent>;
+describe('EmailNotificationsComponent', () => {
+  let component: EmailNotificationsComponent;
+  let fixture: ComponentFixture<EmailNotificationsComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ SingularArtistListComponent ]
+      declarations: [ EmailNotificationsComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(SingularArtistListComponent);
+    fixture = TestBed.createComponent(EmailNotificationsComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

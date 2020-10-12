@@ -370,3 +370,24 @@ nav ul#social-media > li {
     }
 }
 
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+.emailBox{ 
+    .mat-dialog-container{
+    background:#000 !important;
+    border: 2px solid #fff;
+
+}
+    label{
+        color:#fff;
+        padding-right:5px;
+    }
+
+    button.btn{
+        background-color:#AC832C;
+        color:#fff;
+        margin:5px;
+    }
+}
